@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "tiffinly",
+    "slug": "tiffinly",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Tiffinly.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "experiments": {
+      "reactCompiler": true
+    },
+    "plugins": [
+      [
+        "react-native-bootsplash",
+        {
+          "logo": "./assets/Tiffinly.png",
+          "background": "#ffffff",
+          "logoWidth": 100
+        }
+      ],
+      "expo-font",
+      "expo-localization"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.tiffinly"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Tiffinly.png",
+        "backgroundColor": "#ffffff"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.tiffinly"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
